@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.parent_m
+{
+    width: 100%;
+    background-color:lightblue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+}
+.child {
+    width: 20%;
+    height: 180px;
+    background-color: gray;
+    display: inline-block;
+    margin-left: 4%;
+}
+.parent_f {
+    width: 100%;
+    background-color: lightgreen;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.child_f {
+    width: 15%;
+    height: 180px;
+    background-color: red;
+}
